@@ -1,0 +1,20 @@
+.container{
+    /*linear gradient using for gradient color*/
+    background-image: linear-gradient(rgb(199,199,0),rgba(165,165,0,0.5));
+    border:5px solid gray;
+    border-style: groove ;
+    }
+
+img:hover{
+    transform:scale(1.1) ;
+}
+#log{
+    background-color: rgb(199,199,0);
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+#log:hover{
+    background-color: rgba(165,165,0);
+}
+

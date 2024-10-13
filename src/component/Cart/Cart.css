@@ -1,0 +1,45 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+#Checkout{
+    background-color: rgb(199,199,0);
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+#Checkout:hover{
+    background-color: rgb(165,165,0);
+}
+#Delete{
+    background-color: rgb(199,199,0);
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+#Delete:hover{
+    background-color: rgb(165,165,0);
+}
+.quantity-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+button{
+    font-weight: bold;
+    background-color: rgb(199,199,0);
+    padding: 5px;
+}
+button:hover{
+    background-color:rgb(165,165,0) ;
+}
+.pic{
+    height: 50%;
+}
+img:hover{
+    transform: scale(0.9) ease-in-out;
+}
+

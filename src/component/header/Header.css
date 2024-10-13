@@ -1,0 +1,92 @@
+.field{
+    border-radius: 0 0 0 10px;
+    border: none;
+    padding: 5px;
+    width: 350px;
+    }
+
+@media (max-width: 576px) {
+    .field {
+        width: auto; 
+    }
+}
+#search{
+    border-radius: 0 10px 0 0;
+    background-color:rgb(199, 199, 0);  
+    color: black;
+    font-weight: bold;
+    border: none;
+    font-size: medium;
+}
+#search:hover{
+    background-color:  rgb(165, 165, 0);
+    color: black;
+}
+
+.btnn{
+    border-radius:10px 10px 10px;
+    background-color: rgb(199, 199, 0) !important;
+    border: none;
+    
+}
+.btnn a{
+    font-weight: bold;
+    color: black !important;
+    text-decoration: none;
+}
+.btnn a:hover{
+    color: black !important;
+    text-decoration: none;
+}
+.btnn:hover{
+    background-color:  rgb(165, 165, 0);
+
+}
+.cart{
+    font-size: 25px;
+    color: rgb(199, 199, 0);
+    padding: 10px; 
+  
+   
+}
+.cart:hover{
+   color:  rgb(165, 165, 0);
+}
+
+
+   .navbar-brand{
+    padding-left: 20px;
+    color: rgb(199, 199, 0);
+    font-family:serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      
+    }
+.navbar-brand:hover{
+    color: rgb(165, 165, 0);
+    text-decoration: none;
+}    
+  
+/*Header Section 2*/  
+
+.nav-link{
+   color: black !important;
+   
+}
+.nav-link:hover{
+    color: rgb(199, 199, 0);
+}
+
+.dropdown-toggle{
+    color:black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    }
+ .dropdown-menu a:hover{
+       background-color:rgb(199, 199, 0)
+ }
